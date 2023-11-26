@@ -17,7 +17,7 @@ function Gallery() {
         {jsonData.map((item, index) => (
           <a key={index} href="#" class="group">
      <div class="col">
-         <Image src={item.image} class="card-img-top p-4" alt="..."/>
+         <img src={item.image} class="card-img-top p-4" alt="..."/>
      </div></a> ))}
      </div>
   )

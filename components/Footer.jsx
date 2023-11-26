@@ -8,7 +8,7 @@ function Footer() {
         <div class="row">
           <div class="col-lg-4 col-md-6 col-12">
             <div class="mb-4">
-              <Image src="logo.svg" alt="" class="logo-inverse " />
+              <img src="logo.svg" alt="" class="logo-inverse " />
               <div class="mt-4">
                 <p>
                   Jelajahi semua pengetahuan dan ilmu yang berguna bersama kami,

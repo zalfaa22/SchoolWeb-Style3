@@ -9,7 +9,7 @@ function Navbar() {
         <nav className="navbar navbar-expand-lg navbar-light bg-white">
           <div className="container my-2">
             <a className="navbar-brand" href="#">
-              <Image src="logo.svg" alt="logo" />
+              <img src="logo.svg" alt="logo" />
             </a>
             <button
               className="navbar-toggler"

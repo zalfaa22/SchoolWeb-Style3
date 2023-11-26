@@ -20,7 +20,7 @@ function Daftar() {
           </a></div>
         </div>
         <div class="col-lg-4">
-          <Image src="rafiki2.png" class="img-fluid py-4" alt="Rafiki Image" />
+          <img src="rafiki2.png" class="img-fluid py-4" alt="Rafiki Image" />
         </div>
       </div>
     </div>
