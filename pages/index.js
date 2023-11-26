@@ -40,7 +40,7 @@ function index() {
                 {/* <!-- images --> */}
                 <div class="position-relative">
                   <img
-                    src="home/background.png"
+                    src="Home/background.png"
                     alt=""
                     class="img-fluid end-0"
                   />
