@@ -1,4 +1,5 @@
 import React from "react";
+import Image from "next/image";
 import "./css/D.css";
 
 function Daftar() {
@@ -19,7 +20,7 @@ function Daftar() {
           </a></div>
         </div>
         <div class="col-lg-4">
-          <img src="rafiki2.png" class="img-fluid py-4" alt="Rafiki Image" />
+          <Image src="rafiki2.png" class="img-fluid py-4" alt="Rafiki Image" />
         </div>
       </div>
     </div>

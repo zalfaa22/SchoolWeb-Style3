@@ -1,4 +1,5 @@
 import React from "react";
+import Image from "next/image";
 import Keunggulan from "@/components/Keunggulan";
 import Card from "@/components/Card";
 import Gallery from "@/components/Gallery";
@@ -39,7 +40,7 @@ function index() {
               <div class="col-lg-6 d-flex justify-content-center">
                 {/* <!-- images --> */}
                 <div class="position-relative">
-                  <img
+                  <Image
                     src="home/background.png"
                     alt=""
                     class="img-fluid end-0"

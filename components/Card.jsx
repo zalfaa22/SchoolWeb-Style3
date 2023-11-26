@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from "react";
+import Image from "next/image";
 import data from "../data/News.json"
 
 function Card() {
@@ -17,7 +18,7 @@ function Card() {
           <a key={index} href="#" class="group">
      <div class="col">
        <div class="card border-info">
-         <img src={item.image} class="card-img-top p-4" alt="..."/>
+         <Image src={item.image} class="card-img-top p-4" alt="..."/>
          <div class="card-body px-4">
             <p className="fw-normal text-info">{item.date}</p>
            <h5 class="card-title fw-bold">{item.tittle}</h5>

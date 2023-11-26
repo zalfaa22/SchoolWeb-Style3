@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from "react";
+import Image from "next/image";
 import data from "../data/Gallery.json"
 
 function Gallery() {
@@ -16,7 +17,7 @@ function Gallery() {
         {jsonData.map((item, index) => (
           <a key={index} href="#" class="group">
      <div class="col">
-         <img src={item.image} class="card-img-top p-4" alt="..."/>
+         <Image src={item.image} class="card-img-top p-4" alt="..."/>
      </div></a> ))}
      </div>
   )
