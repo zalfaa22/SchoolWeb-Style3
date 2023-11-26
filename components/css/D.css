@@ -1,0 +1,7 @@
+
+  .gradient-container {
+    background: linear-gradient(to top, #53B8EA, #3D7DD5); /* Change the colors as needed */
+    padding: 20px; /* Add padding if needed */
+    border-radius: 15px; /* Add border-radius if you want rounded corners */
+    /* Add any additional styling as needed */
+  }

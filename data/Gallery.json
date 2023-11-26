@@ -1,0 +1,98 @@
+[
+    {
+        "id": 1,
+        "image": "Gallery/1.png",
+        "tittle": "",
+        "display": "home"
+    },
+    {
+        "id": 2,
+        "image": "Gallery/2.png",
+        "tittle": "",
+        "display": "home"
+    },
+    {
+        "id": 3,
+        "image": "Gallery/3.png",
+        "tittle": "",
+        "display": "home"
+    },
+    {
+        "id": 4,
+        "image": "Gallery/4.png",
+        "tittle": "",
+        "display": "home"
+    },
+    {
+        "id": 5,
+        "image": "Gallery/5.png",
+        "tittle": "Ruang Kelas",
+        "display": "all"
+    },
+    {
+        "id": 6,
+        "image": "Gallery/6.png",
+        "tittle": "Belajar Mengajar",
+        "display": "all"
+    },
+    {
+        "id": 7,
+        "image": "Gallery/7.png",
+        "tittle": "Lorong Sekolah",
+        "display": "all"
+    },
+    {
+        "id": 8,
+        "image": "Gallery/8.png",
+        "tittle": "Kelas Bahasa Inggris",
+        "display": "all"
+    },
+    {
+        "id": 9,
+        "image": "Gallery/9.png",
+        "tittle": "Karya Murid",
+        "display": "all"
+    },
+    {
+        "id": 10,
+        "image": "Gallery/10.png",
+        "tittle": "Tamasya Sekolah",
+        "display": "all"
+    },
+    {
+        "id": 11,
+        "image": "Gallery/11.png",
+        "tittle": "Lomba Tarik Tambang",
+        "display": "all"
+    },
+    {
+        "id": 12,
+        "image": "Gallery/12.png",
+        "tittle": "Halaman Sekolah",
+        "display": "all"
+    },
+    {
+        "id": 13,
+        "image": "Gallery/13.png",
+        "tittle": "Pameran Teknologi",
+        "display": "all"
+    },
+    {
+        "id": 14,
+        "image": "Gallery/14.png",
+        "tittle": "Belajar Menggambar",
+        "display": "all"
+    },
+    {
+        "id": 15,
+        "image": "Gallery/15.png",
+        "tittle": "Tugas Kelompok",
+        "display": "all"
+    },
+    {
+        "id": 16,
+        "image": "Gallery/16.png",
+        "tittle": "Belajar dan Bermain",
+        "display": "all"
+    }
+]

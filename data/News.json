@@ -1,0 +1,98 @@
+[
+    {
+        "id": 1,
+        "image": "News/1.png",
+        "tittle": "Gotong Royong di Sekolah, Bantu Anak Segera Kembali ke Sekolah",
+        "description": "Jika anak kita ditanya apa mimpinya pasti jawabnya saya ingin kembali belajar di sekolah. Saya ingin bertemu dengan teman-teman . . .",
+        "date": "12 Desember 2021",
+        "display": "home"
+    },
+    {
+        "id": 2,
+        "image": "News/1.png",
+        "tittle": "Gotong Royong di Sekolah, Bantu Anak Segera Kembali ke Sekolah",
+        "description": "Jika anak kita ditanya apa mimpinya pasti jawabnya saya ingin kembali belajar di sekolah. Saya ingin bertemu dengan teman-teman . . .",
+        "date": "12 Desember 2021",
+        "display": "home"
+    },
+    {
+        "id": 3,
+        "image": "News/1.png",
+        "tittle": "Gotong Royong di Sekolah, Bantu Anak Segera Kembali ke Sekolah",
+        "description": "Jika anak kita ditanya apa mimpinya pasti jawabnya saya ingin kembali belajar di sekolah. Saya ingin bertemu dengan teman-teman . . .",
+        "date": "12 Desember 2021",
+        "display": "home"
+    },
+    {
+        "id": 4,
+        "image": "News/2.png",
+        "tittle": "Teknik Belajar Tepat Agar Anak Tak Mudah Bosan",
+        "description": "Menggunakan teknik belajar yang tepat sangatlkah penting agar anak bisa menyerap materi dengan baik namun tetap . . .",
+        "date": "12 Desember 2021",
+        "display": "all"
+    },
+    {
+        "id": 5,
+        "image": "News/3.png",
+        "tittle": "Metode Tanya Jawab Untuk Evaluasi Materi Di Sekolah",
+        "description": "Untuk mengetahui seberapa paham anak tentang materi yang diberikan, guru biasa mengadakan sesi tanya jawab agar menyegarkan ingatan  . . .",
+        "date": "12 Desember 2021",
+        "display": "all"
+    },
+    {
+        "id": 6,
+        "image": "News/4.png",
+        "tittle": "Berlibur Bersama Agar Anak Tidak Jenuh ",
+        "description": "Anak tentunya akanjenuh jika terus menerus belajar, mereka juga perlu berlibur sejenak apalagi bersama dengan teman . . .",
+        "date": "12 Desember 2021",
+        "display": "all"
+    },
+    {
+        "id": 7,
+        "image": "News/5.png",
+        "tittle": "Gotong Royong di Sekolah, Bantu Anak Segera Kembali ke Sekolah",
+        "description": "Jika anak kita ditanya apa mimpinya pasti jawabnya saya ingin kembali belajar di sekolah. Saya ingin bertemu dengan teman-teman . . .",
+        "date": "12 Desember 2021",
+        "display": "all"
+    },
+    {
+        "id": 8,
+        "image": "News/6.png",
+        "tittle": "Permainan Yang Bagus Untuk Perkembangan Anak",
+        "description": "Selain belajar, anak-anak tentunya perlu untuk bermain, namun permainan apasaja kah yang dapat membantu perkembangan . . .",
+        "date": "12 Desember 2021",
+        "display": "all"
+    },
+    {
+        "id": 9,
+        "image": "News/7.png",
+        "tittle": "Di Sekolah Belajar, Di Rumah pun Apakah Harus Belajar?",
+        "description": "Jika anak merasa dirinya sudah cukup hanya dengan belajar disekolah, kita sebagai orang tua harus bisa memberi . . .",
+        "date": "12 Desember 2021",
+        "display": "all"
+    },
+    {
+        "id": 10,
+        "image": "News/8.png",
+        "tittle": "Tetap Menjaga Kesehatan Anak Selama Di Sekolah",
+        "description": "Virus dan bakteri tentu ada dimana saja, oleh sebab itu kita perlu memperhatikan kesehatan anak agar tidak mudah tertular . . .",
+        "date": "12 Desember 2021",
+        "display": "all"
+    },
+    {
+        "id": 11,
+        "image": "News/9.png",
+        "tittle": "Mewarnai Membantu Meningkatkan Kreativitas Anak?",
+        "description": "Banyak kegiatan bisa dilakukan di rumah dan disekolah untuk meningkatkan kreativitas anak. Banyak pendapaf diluar sana bahwa  . . .",
+        "date": "12 Desember 2021",
+        "display": "all"
+    },
+    {
+        "id": 12,
+        "image": "News/10.png",
+        "tittle": "Perlukah Belajar Menggambar Dan Mewarnai Di Sekolah?",
+        "description": "Banyak kegiatan bisa dilakukan di rumah dan disekolah untuk meningkatkan kreativitas anak. Banyak pendapaf diluar sana bahwa . . .",
+        "date": "12 Desember 2021",
+        "display": "all"
+    }
+]
