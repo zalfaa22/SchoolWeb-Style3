@@ -23,29 +23,24 @@ function Navbar() {
             <div className="collapse navbar-collapse">
               <ul className="navbar-nav mx-auto mt-2 mt-lg-0">
                 <li className="nav-item mx-3">
-                  <a className="nav-link" href="/">
+                  <Link className="nav-link" href="/"/>
                     Beranda
-                  </a>
                 </li>
                 <li className="nav-item mx-3">
-                  <a className="nav-link" href="/about">
+                  <Link className="nav-link" href="/about"/>
                     Tentang
-                  </a>
                 </li>
                 <li className="nav-item mx-3">
-                  <a className="nav-link" href="/galery">
+                  <Link className="nav-link" href="/galery"/>
                     Galeri
-                  </a>
                 </li>
                 <li className="nav-item mx-3">
-                  <a className="nav-link" href="/news">
+                  <Link className="nav-link" href="/news"/>
                     Artikel
-                  </a>
                 </li>
                 <li className="nav-item mx-3">
-                  <a className="nav-link" href="/contact">
+                  <Link className="nav-link" href="/contact"/>
                     Kontak
-                  </a>
                 </li>
               </ul>
               <ul className="navbar-nav">
