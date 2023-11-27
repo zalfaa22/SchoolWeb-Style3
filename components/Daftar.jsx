@@ -15,12 +15,13 @@ function Daftar() {
             menunggu kehadiran anak anda untuk segera belajar bersama kami.
           </p>
           <div className="ps-3 pt-2">
-          <a href="#" class="btn bg-light m-0 px-3 py-2 text-primary">
-            Daftar Sekarang
-          </a></div>
+            <a href="#" class="btn bg-light m-0 px-3 py-2 text-primary">
+              Daftar Sekarang
+            </a>
+          </div>
         </div>
         <div class="col-lg-4">
-          <img src="rafiki2.png" class="img-fluid py-4" alt="Rafiki Image" />
+          <img src="daftar.svg" class="img-fluid py-4" alt="Rafiki Image" />
         </div>
       </div>
     </div>

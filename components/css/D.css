@@ -5,3 +5,39 @@
     border-radius: 15px; /* Add border-radius if you want rounded corners */
     /* Add any additional styling as needed */
   }
+
+  .overlay {
+    position: absolute;
+    top: 5.3%;
+    left: 6.5%;
+    width: 87%;
+    height: 88%;
+    border-radius: 6%;
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 0%, rgba(77, 127, 213, 0.5) 80%, rgba(57, 113, 208, 0.7) 100%);
+    pointer-events: none; /* Jangan menghalangi interaksi dengan elemen di bawahnya */
+  }
+
+  .card-img-top {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Sesuaikan dengan ukuran elemen parent */
+  }
+
+  .text-limit {
+    display: -webkit-box;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+  }
+
+  .tittle-limit {
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+  }
+  
+  /* .col {
+    position: relative;
+  } */
+  

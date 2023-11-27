@@ -23,29 +23,38 @@ function Navbar() {
             <div className="collapse navbar-collapse">
               <ul className="navbar-nav mx-auto mt-2 mt-lg-0">
                 <li className="nav-item mx-3">
-                  <Link className="nav-link" href="/"/>
+                  <Link className="nav-link" href="/">
                     Beranda
+                  </Link>
                 </li>
                 <li className="nav-item mx-3">
-                  <Link className="nav-link" href="/about"/>
+                  <Link className="nav-link" href="/about">
                     Tentang
+                  </Link>
                 </li>
                 <li className="nav-item mx-3">
-                  <Link className="nav-link" href="/galery"/>
+                  <Link className="nav-link" href="/gallery">
                     Galeri
+                  </Link>
                 </li>
                 <li className="nav-item mx-3">
-                  <Link className="nav-link" href="/news"/>
+                  <Link className="nav-link" href="/article">
                     Artikel
+                  </Link>
                 </li>
                 <li className="nav-item mx-3">
-                  <Link className="nav-link" href="/contact"/>
+                  <Link className="nav-link" href="/contact">
                     Kontak
+                  </Link>
                 </li>
               </ul>
               <ul className="navbar-nav">
                 <li className="nav-item">
-                  <a href="#" className="btn btn-info px-4">
+                  <a
+                    href="#"
+                    className="btn rounded-3 btn-info px-4 text-white"
+                    style={{ backgroundColor: "#619aef" }}
+                  >
                     PPDB
                   </a>
                 </li>
