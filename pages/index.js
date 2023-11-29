@@ -3,16 +3,22 @@ import { Keunggulan1 } from "@/components/Keunggulan";
 import { Card1 } from "@/components/CardNews";
 import { Gallery1 } from "@/components/Gallery";
 import Daftar from "@/components/Daftar";
+import "./css/style.css";
 
 function index() {
   return (
     <>
       <div className="bg-white">
-        <section class="py-lg-16 py-8 pb-5 bg-white">
+        <div className="d-none d-md-block">
+          <img className="homebubble1" src="Home/bubble1.svg"></img>
+          <img className="homebubble2" src="home/bubble2.svg"></img>
+          <img className="homebubble3" src="home/bubble3.svg"></img>
+        </div>
+        <section class="py-8 pb-5 bg-white" style={{paddingTop: "7rem"}}>
           <div class="container">
             <div class="row align-items-center">
               <div class="col-lg-6 mb-6 mb-lg-0">
-                <div class="text-black">
+                <div class="text-black position-relative">
                   <h1 class="display-7 fw-bold mb-3">
                     Tuntut Ilmu Untuk Masa Depan Yang Lebih Baik
                   </h1>
@@ -28,14 +34,16 @@ function index() {
 
               <div class="col-lg-6 d-flex justify-content-center">
                 <div class="position-relative">
-                  <img src="Home/hero.svg" alt="" class="img-fluid end-0" />
+                  <img src="Home/rafiki.svg" alt="" class="img-fluid end-0" />
                 </div>
               </div>
             </div>
           </div>
         </section>
 
+        <div style={{ paddingTop: "4rem" }}>
         <Keunggulan1 />
+        </div>
 
         <div
           style={{
@@ -61,7 +69,7 @@ function index() {
             paddingLeft: "2rem",
           }}
         >
-          <div className=" mt-5">
+          <div className="position-relative mt-1">
             <div className="row">
               <div className="col-md-6">
                 <p className="text-start text-black fs-1 fw-bold ms-5">
@@ -84,7 +92,7 @@ function index() {
             <Gallery1 />
           </div>
         </div>
-        <div className="px-5 py-5">
+        <div className="px-5 pt-1" style={{paddingTop: "5rem", paddingBottom: "7rem",}}>
           <Daftar />
         </div>
       </div>

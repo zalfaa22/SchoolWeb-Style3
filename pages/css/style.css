@@ -1,0 +1,110 @@
+/* Home */
+.homebubble1 {
+    position: absolute;
+    width: 50%;
+    right: 0;
+}
+
+.homebubble2 {
+    position: absolute;
+    width: 10%;
+    left: 2rem;
+    top: 2rem;
+}
+.homebubble3 {
+    position: absolute;
+    width: 35%;
+    left: 0;
+    top: 160rem;
+}
+
+/* About */
+.aboutbubble1 {
+    position: absolute;
+    width: 40%;
+    right: 0;
+}
+.aboutbubble2 {
+    position: absolute;
+    width: 10%;
+    left: 2rem;
+    top: 2rem;
+}
+.aboutbubble3 {
+    position: absolute;
+    width: 15%;
+    left: 0;
+    top: 10rem;
+}
+
+/* Gallery */
+.gallerybubble1 {
+    position: absolute;
+    width: 40%;
+    right: 0;
+}
+.gallerybubble2 {
+    position: absolute;
+    width: 10%;
+    left: 2rem;
+    top: 2rem;
+}
+.gallerybubble3 {
+    position: absolute;
+    width: 20%;
+    left: 0;
+    top: 16rem;
+}
+
+/* article */
+.articlebubble1 {
+    position: absolute;
+    width: 25%;
+    right: 0;
+}
+.articlebubble2 {
+    position: absolute;
+    width: 10%;
+    left: 2rem;
+    top: 2rem;
+}
+.articlebubble3 {
+    position: absolute;
+    width: 15%;
+    left: 0;
+    top: 8rem;
+}
+
+/* Contact */
+.contactbubble1 {
+    position: absolute;
+    width: 30%;
+    right: 0;
+}
+.contactbubble2 {
+    position: absolute;
+    width: 10%;
+    left: 2rem;
+    top: 2rem;
+}
+.contactbubble3 {
+    position: absolute;
+    width: 20%;
+    left: 0;
+    top: 12rem;
+}
+.ph {
+    border-color: #54BAEB !important;
+}
+.em {
+    border-color: #54BAEB !important;
+}
+.loc {
+    border-color: #54BAEB !important;
+}
+
+
+/* Read */
+.par {
+        text-align: justify !important;
+}

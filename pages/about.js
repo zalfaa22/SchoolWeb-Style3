@@ -2,12 +2,18 @@ import React from "react";
 import { Keunggulan2 } from "@/components/Keunggulan";
 import Guru from "@/components/Guru";
 import Daftar from "@/components/Daftar";
+import "./css/style.css";
 
 function about() {
   return (
     <div className="bg-white">
+      <div>
+          <img className="aboutbubble1" src="About/bubble1.svg"></img>
+          <img className="aboutbubble2" src="About/bubble2.svg"></img>
+          <img className="aboutbubble3" src="About/bubble3.svg"></img>
+        </div>
       <div class=" d-flex justify-content-center">
-        <div class="position-relative mt-5">
+        <div class="position-relative " style={{marginTop: "6rem"}}>
           <img src="About/hero.svg" alt="" class="img-fluid " />
         </div>
       </div>
@@ -17,17 +23,18 @@ function about() {
           className="wrap mt-5"
           style={{ maxWidth: "80%", margin: "0 auto" }}
         >
-          <p className="text-center text-dark fs-1 fw-bold">Video Profil</p>
+          <h1 className="text-center text-dark fs-1 fw-bold">Video Profil</h1>
           <p className="text-center text-dark fs-5 fw-normal">
             Berikut adalah video profil dari sekolah kami
           </p>
           <div class="ratio ratio-16x9">
-            <iframe
+            <img src="About/video.svg"></img>
+            {/* <iframe
               className="rounded-4 "
               src="https://www.youtube.com/embed/NJq5eLYDmkE?si=Zaz98u8jyDQhha69"
               title="students writing in class"
               allowfullscreen
-            ></iframe>
+            ></iframe> */}
           </div>
         </div>
       </div>

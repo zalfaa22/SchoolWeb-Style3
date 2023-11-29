@@ -1,4 +1,5 @@
 import React from "react";
+import "./css/style.css";
 
 function read() {
   return (
@@ -7,14 +8,14 @@ function read() {
       style={{
         paddingTop: "3rem",
         paddingBottom: "6rem",
-        paddingRight: "5rem",
-        paddingLeft: "5rem",
+        paddingRight: "3rem",
+        paddingLeft: "3rem",
       }}
     >
       <div class=" row">
         <img class="rounded-4 col-xl-12" src="image.png" />
         <div class="col-xl-12 row justify-content-center d-flex">
-          <p class="text-primary fs-5 fw-medium  col-xl-12 m-0 px-3 py-2">
+          <p class="text-primary fs-5 fw-medium  col-xl-12 m-0 px-3 py-2 pt-4">
             12 Desember 2021
           </p>
           <p class="text-black fs-1 fw-bold  col-xl-12 m-0 px-3 py-2">
@@ -23,7 +24,7 @@ function read() {
           <p class="text-start text-black fs-6 fw-normal  col-xl-12 m-0 px-3 py-2">
             Penulis : Shinta A.P
           </p>
-          <p class="text-start text-black fs-6 fw-normal  col-xl-12 m-0 px-3 py-2">
+          <p class="par text-justify  text-black fs-6 fw-normal  col-xl-12 m-0 px-3 py-2">
             Jika anak kita ditanya apa mimpinya pasti jawabnya saya ingin
             kembali belajar di sekolah. Saya ingin bertemu dengan teman-teman
             sekelas saya. begitupun sebagian besar orang tua, mimpi mereka

@@ -1,11 +1,17 @@
 import React from "react";
 import { Gallery2 } from "@/components/Gallery";
+import "./css/style.css";
 
 function gallery() {
   return (
     <div className="bg-white">
+      <div>
+          <img className="gallerybubble1" src="Gallery/bubble1.svg"></img>
+          <img className="gallerybubble2" src="Gallery/bubble2.svg"></img>
+          <img className="gallerybubble3" src="Gallery/bubble3.svg"></img>
+        </div>
       <div class="d-flex justify-content-center">
-        <div class="position-relative mt-5">
+        <div class="position-relative" style={{marginTop: "8rem"}}>
           <p
             style={{
               position: "absolute",
@@ -13,7 +19,7 @@ function gallery() {
               left: "50%",
               transform: "translate(-50%, -50%)",
             }}
-            className="text-center text-black fs-2 fw-bold"
+            className="text-center text-black fs-1 fw-bold"
           >
             Galeri
           </p>

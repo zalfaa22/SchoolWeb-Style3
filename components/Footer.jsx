@@ -17,9 +17,9 @@ function Footer() {
               </div>
             </div>
           </div>
-          <div class="offset-lg-1 col-lg-2 col-md-3 col-6">
+          <div class="offset-lg-1 col-lg-2 col-md-2 col-3">
             <div class="mb-5">
-              <h3 class="fs-5 fw-bold mb-3">Informasi</h3>
+              <h3 class="fs-lg-5 fs-md-5 fs-6 fw-bold mb-3">Informasi</h3>
               <p>
                 <a href="#" class="nav-link">
                   Artikel
@@ -32,9 +32,9 @@ function Footer() {
               </p>
             </div>
           </div>
-          <div class="col-lg-2 col-md-3 col-6">
+          <div class="col-lg-2 col-md-2 col-3">
             <div class="mb-5">
-              <h3 class="fs-5 fw-bold mb-3">Tentang</h3>
+              <h3 class="fs-lg-5 fs-md-5 fs-6 fw-bold mb-3">Tentang</h3>
               <p>
                 <a href="#" class="nav-link">
                   Tentang Kami{" "}
@@ -47,12 +47,12 @@ function Footer() {
               </p>
             </div>
           </div>
-          <div class="col-lg-3 col-md-12">
+          <div class="col-lg-3 col-md-2 col-4">
             <div class="mb-4">
-              <h3 class="fs-5 fw-bold mb-3">Ikuti Kami</h3>
-              <p>namasekolah</p>
-              <p>namasekolah</p>
-              <p>namasekolah</p>
+              <h3 class="fs-lg-5 fs-md-5 fs-6 fw-bold mb-3">Ikuti Kami</h3>
+              <p class="d-flex flex-row align-items-center"> <img src="facebook.svg" alt="Small Image" class="me-2" />namasekolah</p>
+              <p class="d-flex flex-row align-items-center"> <img src="twitter.svg" alt="Small Image" class="me-2" />namasekolah</p>
+              <p class="d-flex flex-row align-items-center"> <img src="instagram.svg" alt="Small Image" class="me-2" />namasekolah</p>
             </div>
           </div>
         </div>

@@ -1,11 +1,17 @@
 import React from "react";
 import { Card2 } from "@/components/CardNews";
+import "./css/style.css";
 
 function article() {
   return (
     <div className="bg-white">
+      <div>
+          <img className="articlebubble1" src="News/bubble1.svg"></img>
+          <img className="articlebubble2" src="News/bubble2.svg"></img>
+          <img className="articlebubble3" src="News/bubble3.svg"></img>
+        </div>
       <div class="d-flex justify-content-center">
-        <div class="position-relative mt-5">
+        <div class="position-relative" style={{marginTop:"7rem"}}>
           <p
             style={{
               position: "absolute",
@@ -13,7 +19,7 @@ function article() {
               left: "50%",
               transform: "translate(-50%, -50%)",
             }}
-            className="text-center text-black fs-2 fw-bold"
+            className="text-center text-black fs-1 fw-bold"
           >
             Artikel
           </p>
