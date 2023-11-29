@@ -11,8 +11,8 @@ function index() {
       <div className="bg-white">
         <div className="d-none d-md-block">
           <img className="homebubble1" src="Home/bubble1.svg"></img>
-          <img className="homebubble2" src="home/bubble2.svg"></img>
-          <img className="homebubble3" src="home/bubble3.svg"></img>
+          <img className="homebubble2" src="Home/bubble2.svg"></img>
+          <img className="homebubble3" src="Home/bubble3.svg"></img>
         </div>
         <section class="py-8 pb-5 bg-white" style={{paddingTop: "7rem"}}>
           <div class="container">
