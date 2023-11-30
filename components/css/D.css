@@ -47,4 +47,42 @@
   /* .col {
     position: relative;
   } */
+
+
+  @media screen and (min-width: 320px) {
+    .rafiki1 {
+      width: 70%;
+      /* margin-left: 2.5rem; */
+    }
+    .rafiki2 {
+      width: 70%;
+      /* margin-left: 2.5rem; */
+    }
+  }
+
+  
+@media screen and (min-width: 768px) {
+  .te {
+    text-align: justify !important;
+}
+.rafiki1 {
+  width: 40%;
+}
+.rafiki2 {
+  width: 40%;
+}
+}
+
+
+@media screen and (min-width: 1024px) {
+  .te {
+    text-align: justify !important;
+}
+.rafiki1 {
+  width: 40%;
+}
+.rafiki2 {
+  width: 35%;
+}
+}
   

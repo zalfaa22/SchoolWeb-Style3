@@ -46,9 +46,7 @@ function about() {
       <div
         style={{
           paddingTop: "6rem",
-          paddingBottom: "8rem",
-          paddingRight: "2rem",
-          paddingLeft: "2rem",
+          paddingBottom: "8rem"
         }}
       >
         <div className=" mt-5">
@@ -75,11 +73,9 @@ function about() {
         </div>
       </div>
 
-      <div
+      <div className="px-5"
         style={{
-          paddingBottom: "8rem",
-          paddingRight: "4rem",
-          paddingLeft: "4rem",
+          paddingBottom: "8rem"
         }}
       >
         <Daftar />

@@ -4,6 +4,7 @@ import "./css/style.css";
 
 function article() {
   return (
+    <>
     <div className="bg-white">
       <div>
           <img className="articlebubble1" src="News/bubble1.svg"></img>
@@ -74,7 +75,7 @@ function article() {
       >
         <Card2 />
       </div>
-    </div>
+    </div></>
   );
 }
 

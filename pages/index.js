@@ -17,16 +17,16 @@ function index() {
         <section class="py-8 pb-5 bg-white" style={{paddingTop: "7rem"}}>
           <div class="container">
             <div class="row align-items-center">
-              <div class="col-lg-6 mb-6 mb-lg-0">
+              <div class="col-lg-6 mb-6 mb-lg-0 text-center text-md-start text-lg-start">
                 <div class="text-black position-relative">
-                  <h1 class="display-7 fw-bold mb-3">
+                  <h1 class="display-7  fs-1 fw-semibold mb-3" style={{ color: "#16215D" }}>
                     Tuntut Ilmu Untuk Masa Depan Yang Lebih Baik
                   </h1>
-                  <p class="pe-lg-10 mb-5">
+                  <p class="text-secondary fs-6 fw-normal pe-lg-10 mb-4">
                     jelajahi semua pengetahuan dan ilmu yang berguna bersama
                     kami, untuk kehidupan yang lebih bermanfaat
                   </p>
-                  <a href="#" class="btn btn-primary">
+                  <a href="#" class="btn rounded-3 text-white fs-6 fw-medium" style={{ backgroundColor: "#619aef" }}>
                     Daftar Sekarang
                   </a>
                 </div>
@@ -47,15 +47,13 @@ function index() {
 
         <div
           style={{
-            paddingTop: "5rem",
+            paddingTop: "3rem",
             paddingBottom: "7rem",
-            paddingRight: "2rem",
-            paddingLeft: "2rem",
           }}
         >
           <div className="wrap mt-5">
-            <p class="text-center text-black fs-1 fw-bold ">Artikel</p>
-            <p class="text-center text-black fs-5 fw-normal ">
+            <h1 class="text-center fs-1 fw-bold " style={{ color: "#1C2661" }}>Artikel</h1>
+            <p class="text-center fs-5 fw-normal mb-4" style={{ color: "#1C2661" }}>
               Artikel terbaru seputar pendidikan
             </p>
             <Card1 />
@@ -64,25 +62,23 @@ function index() {
 
         <div
           style={{
-            paddingBottom: "7rem",
-            paddingRight: "2rem",
-            paddingLeft: "2rem",
+            paddingBottom: "7rem"
           }}
         >
           <div className="position-relative mt-1">
             <div className="row">
               <div className="col-md-6">
-                <p className="text-start text-black fs-1 fw-bold ms-5">
+                <h2 className="text-start fs-1 fw-bold ms-5" style={{ color: "#1C2661" }}>
                   Galeri
-                </p>
-                <p className="text-start text-black fs-5 fw-normal ms-5">
+                </h2>
+                <h1 className="col-5 col-md-12 col-lg-12 text-start fs-5 fw-normal ms-5 mb-4" style={{ color: "#1C2661" }}>
                   Dokumentasi Sekolah
-                </p>
+                </h1>
               </div>
-              <div className="col-md-5 d-md-flex align-items-md-center justify-content-md-end ms-5">
+              <div className="col-5 d-flex align-items-center justify-content-end col-md-5 d-md-flex align-items-md-center justify-content-md-end  ms-lg-5">
                 <a
                   href="#"
-                  className="btn btn-info px-4"
+                  className="btn btn-info px-4 text-white" 
                   style={{ backgroundColor: "#619aef" }}
                 >
                   Lihat Semua

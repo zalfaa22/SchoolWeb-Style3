@@ -2,10 +2,8 @@ import "../app/globals.css";
 import Navbar from "../components/Navbar";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import '../app/globals.css';
-// import 'bootstrap/dist/js/bootstrap.bundle.min.js';
 import Footer from "../components/Footer";
 import { Inter, Poppins } from 'next/font/google'
-import 'bootstrap/dist/css/bootstrap.min.css';
 
 
 const poppins = Poppins({ subsets: ['latin'], weight:'400' })

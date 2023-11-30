@@ -19,10 +19,10 @@ function Card1() {
             <div class="card rounded-4 border-2 border-info">
               <img src={item.image} class="card-img-top px-4 pt-4" alt="..." />
               <div class="card-body px-4">
-                <p className="fw-normal text-info">{item.date}</p>
-                <h5 class="card-title fw-bold tittle-limit">{item.tittle}</h5>
-                <p class="card-text">{item.description}</p>
-                <a href="#" className="fw-semibold text-primary">
+                <h1 className="fs-6 fw-normal" style={{ color: "#619AEF" }}>{item.date}</h1>
+                <h5 class="card-title fs-6 fw-bold lh-base tittle-limit" style={{ color: "#1C2661" }}>{item.tittle}</h5>
+                <p class="card-text text-start fs-6 fw-normal" style={{ color: "#3A3B41" }}>{item.description}</p>
+                <a href="#" className="fs-6 fw-semibold text-primary" style={{ color: "#3362CC" }}>
                   Baca selengkapnya
                 </a>
               </div>
