@@ -7,7 +7,7 @@ function Daftar() {
     <div class="px-4 py-1 gradient-container rounded-4">
       <div class="row align-items-center">
         <div class="col-lg-8 py-4 py-lg-0">
-          <p class="text-center text-md-start text-lg-start text-white fs-4 fs-md-1 fs-lg-1 fw-bold  m-0 px-md-3 px-lg-3 py-2">
+          <p class="text-center text-md-start text-lg-start text-white fs-4 fs-md-1 fs-lg-1 fw-bold  m-0 px-2 px-md-3 px-lg-3 py-2">
             Daftar Sekarang Juga !
           </p>
           <p class="text-center text-md-start text-lg-start text-white fs-6 fs-md-5 fs-lg-5 fw-normal  m-0 px-3 py-2">

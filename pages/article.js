@@ -19,8 +19,9 @@ function article() {
               top: "15%",
               left: "50%",
               transform: "translate(-50%, -50%)",
+              color: "#1C2661"
             }}
-            className="text-center text-black fs-1 fw-bold"
+            className="text-center fs-1 fw-bold"
           >
             Artikel
           </p>
@@ -37,16 +38,16 @@ function article() {
         }}
       >
         <div class="p-1 rounded-4 border border-2 border-info  row">
-          <img class="rounded-4 col-xl-6 py-3 px-3" src="News/image.png" />
-          <div class="col-xl-6 row justify-content-center">
+          <img class="rounded-4 col-xl-6 col-lg-6 py-3 px-3" src="News/image.png" />
+          <div class="col-xl-6 col-lg-6 row justify-content-center">
             <div class="col-12 row d-flex">
-              <p class="text-primary fs-6 fw-medium  col-12 m-0 px-3 pt-3">
+              <p class="fs-6 fw-medium col-12 m-0 px-3 pt-3" style={{color: "#619AEF"}}>
                 12 Desember 2021
               </p>
               <p class="text-dark fs-3 fw-bold  col-12 m-0 px-3 py-2">
                 Gotong Royong di Sekolah, Bantu Anak Segera Kembali ke Sekolah
               </p>
-              <p class="text-start text-dark fs-6 fw-normal  col-12 m-0 px-3 py-2">
+              <p class="text-start text-dark fs-6 fw-normal col-12 m-0 px-3 py-2">
                 Jika anak kita ditanya apa mimpinya pasti jawabnya saya ingin
                 kembali belajar di sekolah. Saya ingin bertemu dengan
                 teman-teman sekelas saya. begitupun sebagian besar orang tua,
@@ -55,10 +56,10 @@ function article() {
                 karena anak-anaknya selama pandemi lebih banyak menghabiskan
                 waktu di. . .{" "}
               </p>
-              <p class="text-start text-dark fs-6 fw-normal  col-12 m-0 px-3 py-2">
+              <p class="text-start text-dark fs-6 fw-normal col-12 m-0 px-3 py-2">
                 Penulis : Shinta A.P
               </p>
-              <p class="text-primary fs-6 fw-semibold  col-12 m-0 px-3 py-2">
+              <p class="fs-6 fw-semibold col-12 m-0 px-3 py-2 mb-md-3" style={{color: "#3362CC"}}>
                 Baca selengkapnya
               </p>
             </div>

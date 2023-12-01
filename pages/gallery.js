@@ -18,8 +18,9 @@ function gallery() {
               top: "5%",
               left: "50%",
               transform: "translate(-50%, -50%)",
+              color: "#1C2661"
             }}
-            className="text-center text-black fs-1 fw-bold"
+            className="text-center fs-1 fw-bold" 
           >
             Galeri
           </p>
@@ -36,7 +37,7 @@ function gallery() {
         }}
       >
         <div className="wrap mt-5">
-          <p className="text-center text-black fs-1 fw-bold">
+          <p className="text-center fs-1 fw-bold" style={{color: "#1C2661"}}>
             Dokumentasi Sekolah
           </p>
           <Gallery2 />

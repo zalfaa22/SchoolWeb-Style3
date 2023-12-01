@@ -182,7 +182,7 @@ function Keunggulan2() {
           <div class="text-white text-center text-md-start text-lg-start fs-1 fw-bold ms-lg-5 text-start px-lg-5 mx-auto me-lg-1">
             Profil Singkat
             <div>
-            <div class=" text-white fs-6 fs-lg-5 fw-normal pt-4 te">
+            <div class="te text-white fs-6 fs-lg-5 fw-normal pt-4">
             Sekolah Kami merupakan sekolah informal yang dikelola untuk membantu anak mengembangkan bakat dan kemampuannya. Dengan memberikan kurikulum terbaik agar anak bisa memilih minat nya dan fokus mengembangkan minat tersebut. Sekolah ini didirikan sejak tahun 1989 dan terus berkembang hingga saat ini. Sejak berdirinya sekolah ini, sudah lebih dari 250.000 siswa lulus dari sekolah kami. Dengan menjunjung tinggi kejujuran, kedisiplinan dan semangat belajar yang tinggi kami berharap bisa terus meghasilkan siswa-siswa lulusan terbaik dari sekolah ini.
             </div></div>
           </div></div>

@@ -105,6 +105,24 @@
 
 
 /* Read */
+.readbubble1 {
+    position: absolute;
+    width: 30%;
+    right: 0;
+    top: 0;
+}
+.readbubble2 {
+    position: absolute;
+    width: 10%;
+    left: 2rem;
+    top: 2rem;
+}
+.readbubble3 {
+    position: absolute;
+    width: 15%;
+    left: 0;
+    top: 8rem;
+}
 .par {
         text-align: justify !important;
 }

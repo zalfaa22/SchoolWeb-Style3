@@ -65,20 +65,20 @@ function index() {
             paddingBottom: "7rem"
           }}
         >
-          <div className="position-relative mt-1">
+          {/* <div className="position-relative mt-1">
             <div className="row">
-              <div className="col-md-6">
+              <div className="col-md-6 col-2 ">
                 <h2 className="text-start fs-1 fw-bold ms-5" style={{ color: "#1C2661" }}>
                   Galeri
                 </h2>
-                <h1 className="col-5 col-md-12 col-lg-12 text-start fs-5 fw-normal ms-5 mb-4" style={{ color: "#1C2661" }}>
+                <h1 className="col-5 col-md-12 col-lg-12 text-start fs-6 fw-normal ms-5 mb-4" style={{ color: "#1C2661" }}>
                   Dokumentasi Sekolah
                 </h1>
               </div>
-              <div className="col-5 d-flex align-items-center justify-content-end col-md-5 d-md-flex align-items-md-center justify-content-md-end  ms-lg-5">
+              <div className="col-3 d-flex align-items-center col-md-5 d-md-flex align-items-md-center justify-content-md-end ms-5 ps-5 ms-lg-5 fs-6">
                 <a
                   href="#"
-                  className="btn btn-info px-4 text-white" 
+                  className="btn btn-info fs-6 px-2  mx-auto mx-lg-2 text-end text-white" 
                   style={{ backgroundColor: "#619aef" }}
                 >
                   Lihat Semua
@@ -86,7 +86,34 @@ function index() {
               </div>
             </div>
             <Gallery1 />
-          </div>
+          </div> */}
+
+<div className="position-relative mt-1">
+  <div className="row">
+    <div className="col-md-6 col-2">
+      <div className="d-flex flex-column">
+        <h2 className="text-start fs-1 fw-bold ms-5" style={{ color: "#1C2661" }}>
+          Galeri
+        </h2>
+        <h1 className="col-12 text-start fs-6 fw-normal ms-5 mb-4" style={{ color: "#1C2661" }}>
+          Dokumentasi Sekolah
+        </h1>
+      </div>
+    </div>
+    <div className="col-md-6 col-10 px-5 d-flex align-items-center justify-content-end">
+      <a
+        href="#"
+        className="btn btn-info fs-6 px-auto me-2 text-end text-white"
+        style={{ backgroundColor: "#619aef" }}
+      >
+        Lihat Semua
+      </a>
+    </div>
+  </div>
+  <Gallery1/>
+</div>
+
+
         </div>
         <div className="px-5 pt-1" style={{paddingTop: "5rem", paddingBottom: "7rem",}}>
           <Daftar />

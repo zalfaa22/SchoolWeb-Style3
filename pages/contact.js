@@ -16,8 +16,9 @@ function contact() {
               position: "absolute",
               left: "50%",
               transform: "translate(-50%, -50%)",
+              color: "#1C2661"
             }}
-            className="text-center text-black fs-1 fw-bold"
+            className="text-center fs-1 fw-bold" 
           >
             Hubungi Kami
           </p>
@@ -26,8 +27,8 @@ function contact() {
       </div>
 
       <div className="px-lg-5 px-md-5" style={{ paddingTop: "8rem", paddingBottom: "6rem", }}>
-      <h1 className="text-center text-dark fs-1 fw-bold ">Kontak Kami</h1>
-          <p className="text-center text-dark fs-5 fw-normal pb-5">
+      <h1 className="text-center  fs-1 fw-bold " style={{color: "#1C2661"}}>Kontak Kami</h1>
+          <p className="text-center text-dark fs-5 fw-normal pb-5" style={{color: "#1C2661"}}>
           Untuk info lebih lanjut silahkan hubungi kami
           </p>
       <section className="py-3">
@@ -39,8 +40,8 @@ function contact() {
                 <div className="ph px-1 py-3 rounded-circle border border-2 d-flex justify-content-center align-items-center">
                   <img src="Contact/phone.svg" alt="Phone" className="w-50" />
                 </div>
-                <div className="d-flex flex-column">
-                  <p className="fs-lg-5 fs-md-5 fw-bold mb-0">(+62) 812 698 15172</p>
+                <div className="d-flex flex-column" style={{color: "#3A3B41"}}>
+                  <p className="fs-lg-5 fs-md-5 fw-bold mb-2">(+62) 812 698 15172</p>
                   <p className="fs-lg-5 fs-md-5 fw-bold mb-0">(0341) 545 987</p>
                 </div>
               </div>
@@ -48,8 +49,8 @@ function contact() {
                 <div className="em px-1 py-3  rounded-circle border border-2 d-flex justify-content-center align-items-center">
                   <img src="Contact/email.svg" alt="Email" className="w-50" />
                 </div>
-                <div className="d-flex flex-column">
-                  <p className="fs-lg-5 fs-md-5 fw-bold mb-0">contact@sekolahanak.Com</p>
+                <div className="d-flex flex-column" style={{color: "#3A3B41"}}>
+                  <p className="fs-lg-5 fs-md-5 fw-bold mb-2">contact@sekolahanak.Com</p>
                   <p className="fs-lg-5 fs-md-5 fw-bold mb-0">info@sekolah.anak.com</p>
                 </div>
               </div>
@@ -57,8 +58,8 @@ function contact() {
                 <div className="loc px-1 py-3  rounded-circle border border-2 d-flex justify-content-center align-items-center">
                   <img src="Contact/location.svg" alt="Location" className="w-50" />
                 </div>
-                <div className="d-flex flex-column">
-                  <p className="fs-lg-5 fs-md-5 fw-bold mb-0">Jl. Soekarno Hatta J-12</p>
+                <div className="d-flex flex-column" style={{color: "#3A3B41"}}>
+                  <p className="fs-lg-5 fs-md-5 fw-bold mb-2">Jl. Soekarno Hatta J-12</p>
                   <p className="fs-lg-5 fs-md-5 fw-bold mb-0">Malang</p>
                 </div>
               </div>

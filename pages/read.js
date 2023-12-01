@@ -6,13 +6,18 @@ function read() {
     <div
       className="bg-white"
       style={{
-        paddingTop: "3rem",
+        paddingTop: "8rem",
         paddingBottom: "6rem",
         paddingRight: "3rem",
         paddingLeft: "3rem",
       }}
     >
-      <div class=" row">
+      <div className="d-none d-md-block">
+          <img className="readbubble1" src="Read/bubble1.svg"></img>
+          <img className="readbubble2" src="Read/bubble2.svg"></img>
+          <img className="readbubble3" src="Read/bubble3.svg"></img>
+        </div>
+      <div class="row position-relative">
         <img class="rounded-4 col-xl-12" src="image.png" />
         <div class="col-xl-12 row justify-content-center d-flex">
           <p class="text-primary fs-5 fw-medium  col-xl-12 m-0 px-3 py-2 pt-4">
