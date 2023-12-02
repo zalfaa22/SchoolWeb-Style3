@@ -1,3 +1,7 @@
+.hover-opacity:hover {
+    opacity: 0.75;
+  }
+
 /* Home */
 .homebubble1 {
     position: absolute;

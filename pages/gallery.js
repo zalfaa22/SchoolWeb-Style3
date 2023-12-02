@@ -6,21 +6,21 @@ function gallery() {
   return (
     <div className="bg-white">
       <div>
-          <img className="gallerybubble1" src="Gallery/bubble1.svg"></img>
-          <img className="gallerybubble2" src="Gallery/bubble2.svg"></img>
-          <img className="gallerybubble3" src="Gallery/bubble3.svg"></img>
-        </div>
+        <img className="gallerybubble1" src="Gallery/bubble1.svg"></img>
+        <img className="gallerybubble2" src="Gallery/bubble2.svg"></img>
+        <img className="gallerybubble3" src="Gallery/bubble3.svg"></img>
+      </div>
       <div class="d-flex justify-content-center">
-        <div class="position-relative" style={{marginTop: "8rem"}}>
+        <div class="position-relative" style={{ marginTop: "8rem" }}>
           <p
             style={{
               position: "absolute",
               top: "5%",
               left: "50%",
               transform: "translate(-50%, -50%)",
-              color: "#1C2661"
+              color: "#1C2661",
             }}
-            className="text-center fs-1 fw-bold" 
+            className="text-center fs-1 fw-bold"
           >
             Galeri
           </p>
@@ -35,7 +35,10 @@ function gallery() {
         }}
       >
         <div className="wrap mt-5">
-          <p className="text-center fs-1 fw-bold px-4" style={{color: "#1C2661"}}>
+          <p
+            className="text-center fs-1 fw-bold px-4"
+            style={{ color: "#1C2661" }}
+          >
             Dokumentasi Sekolah
           </p>
           <Gallery2 />

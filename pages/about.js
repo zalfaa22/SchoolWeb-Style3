@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import Link from "next/link";
 import Image from "next/image";
 import { Keunggulan2 } from "@/components/Keunggulan";
 import Guru from "@/components/Guru";
@@ -16,16 +17,15 @@ function About() {
     setModalOpen(false);
   };
 
-
   return (
     <div className="bg-white">
       <div>
-          <img className="aboutbubble1" src="About/bubble1.svg"></img>
-          <img className="aboutbubble2" src="About/bubble2.svg"></img>
-          <img className="aboutbubble3" src="About/bubble3.svg"></img>
-        </div>
+        <img className="aboutbubble1" src="About/bubble1.svg"></img>
+        <img className="aboutbubble2" src="About/bubble2.svg"></img>
+        <img className="aboutbubble3" src="About/bubble3.svg"></img>
+      </div>
       <div class=" d-flex justify-content-center">
-        <div class="position-relative " style={{marginTop: "6rem"}}>
+        <div class="position-relative " style={{ marginTop: "6rem" }}>
           <img src="About/hero.svg" alt="" class="img-fluid " />
         </div>
       </div>
@@ -35,33 +35,36 @@ function About() {
           className="wrap mt-5"
           style={{ maxWidth: "80%", margin: "0 auto" }}
         >
-          <h1 className="title text-center fs-1 fw-bold" style={{color: "#1C2661"}}>Video Profil</h1>
-          <p className="sub-title text-center fw-normal" >
+          <h1
+            className="title text-center fs-1 fw-bold"
+            style={{ color: "#1C2661" }}
+          >
+            Video Profil
+          </h1>
+          <p className="sub-title text-center fw-normal">
             Berikut adalah video profil dari sekolah kami
           </p>
-          <div class="ratio ratio-16x9">
-            <img src="About/video.svg" onClick={openModal}
-              style={{ cursor: "pointer" }}></img>
-              {isModalOpen && (
-                <div className="">
-            <iframe
-              className="rounded-4 ratio ratio-16x9"
-              src="https://www.youtube.com/embed/NJq5eLYDmkE?si=Zaz98u8jyDQhha69"
-              title="students writing in class"
-              allowfullscreen
-              style={{ width: "100%", height: "100%" }}
-            ></iframe>
-            <button
-      className="btn-close text-black text-5xl position-absolute top-2 end-2 m-1 -pb-5"
-      onClick={closeModal}
-      aria-label="Close"
-    ></button>
-            {/* <button
-  className="btn-close text-black text-5xl position-absolute "
-  onClick={closeModal}
-  aria-label="Close"
-></button> */}
-            </div>
+          <div class="ratio ratio-16x9  hover-opacity">
+            <img
+              src="About/video.svg"
+              onClick={openModal}
+              style={{ cursor: "pointer" }}
+            ></img>
+            {isModalOpen && (
+              <div className="">
+                <iframe
+                  className="rounded-4 ratio ratio-16x9"
+                  src="https://www.youtube.com/embed/NJq5eLYDmkE?si=Zaz98u8jyDQhha69"
+                  title="students writing in class"
+                  allowfullscreen
+                  style={{ width: "100%", height: "100%" }}
+                ></iframe>
+                <button
+                  className="btn-close text-black text-5xl position-absolute top-2 end-2 m-1 -pb-5"
+                  onClick={closeModal}
+                  aria-label="Close"
+                ></button>
+              </div>
             )}
           </div>
         </div>
@@ -74,38 +77,19 @@ function About() {
       <div
         style={{
           paddingTop: "6rem",
-          paddingBottom: "8rem"
+          paddingBottom: "8rem",
         }}
       >
-        <div className="">
-          {/* <div className="row">
-            <div className="col-md-6">
-              <p className="text-start text-dark fs-1 fw-bold ms-5">
-                Guru & Staff
-              </p>
-              <p className="text-start text-dark fs-5 fw-normal ms-5">
-                Daftar Anggota Guru dan Staff Sekolah Ini
-              </p>
-            </div>
-            <div className="col-md-5 d-md-flex align-items-md-center justify-content-md-end ms-5 mb-4 mb-md-0 mb-lg-0">
-              <a
-                href="#"
-                className="btn btn-info px-4 text-white"
-                style={{ backgroundColor: "#619aef" }}
-              >
-                Lihat Semua
-              </a>
-            </div>
-          </div> */}
-
-<div class="galeri pb-4">
+        <div class="galeri pb-4">
           <h2 class="title text-start fs-1 fw-bold ">Guru & Staff</h2>
           <div class="d-flex justify-content-between align-items-center">
-            <h1 class="sub-title text-start fw-normal lh-base">Daftar Anggota Guru dan Staff Sekolah Ini</h1>
+            <h1 class="sub-title text-start fw-normal lh-base">
+              Daftar Anggota Guru dan Staff Sekolah Ini
+            </h1>
             <div class="d-flex align-items-center">
-              <a href="/galery">
+              <Link href="/galery">
                 <div
-                  class="btn rounded-lg px-auto"
+                  class="btn rounded-lg px-auto hover-opacity"
                   style={{ backgroundColor: "#619aef" }}
                 >
                   <div class="seeall text-white text-end">
@@ -125,43 +109,17 @@ function About() {
                     </svg>
                   </div>
                 </div>
-              </a>
+              </Link>
             </div>
           </div>
         </div>
-          <Guru />
-        </div>
-
-{/* <div className="position-relative mt-1">
-  <div className="row">
-    <div className="col-md-6 col-2">
-      <div className="d-flex flex-column">
-        <h2 className="text-start fs-1 fw-bold ms-5" style={{ color: "#1C2661" }}>
-        Guru & Staff
-        </h2>
-        <h1 className="col-12 text-start fs-6 fw-normal ms-5 mb-4" style={{ color: "#1C2661" }}>
-        Daftar Anggota Guru dan Staff Sekolah Ini
-        </h1>
-      </div>
-    </div>
-    <div className="col-md-6 col-10 px-5 d-flex align-items-center justify-content-end">
-      <a
-        href="#"
-        className="btn btn-info fs-6 px-auto me-2 text-end text-white"
-        style={{ backgroundColor: "#619aef" }}
-      >
-        Lihat Semua
-      </a>
-    </div>
-  </div>
-  <Guru/>
-</div> */}
-
+        <Guru />
       </div>
 
-      <div className="px-5"
+      <div
+        className="px-5"
         style={{
-          paddingBottom: "8rem"
+          paddingBottom: "8rem",
         }}
       >
         <Daftar />

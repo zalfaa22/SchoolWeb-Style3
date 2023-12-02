@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from "react";
+import Link from "next/link";
 import data from "../data/Guru.json";
 
 function Guru() {
@@ -11,7 +12,7 @@ function Guru() {
   return (
     <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4 g-4 px-5">
       {jsonData.map((item, index) => (
-        <a key={index} href="#" class="group">
+        <Link key={index} href="#" class="group">
           <div class="col">
             <div class="card rounded-4 border-info">
               <img src={item.image} class="card-img-top px-3 pt-3" alt="..." />
@@ -21,7 +22,7 @@ function Guru() {
               </div>
             </div>
           </div>
-        </a>
+        </Link>
       ))}
     </div>
   );

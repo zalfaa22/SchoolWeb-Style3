@@ -1,4 +1,5 @@
 import React from "react";
+import Link from "next/link";
 import Image from "next/image";
 import "./css/style.css";
 
@@ -15,9 +16,9 @@ function Daftar() {
             menunggu kehadiran anak anda untuk segera belajar bersama kami.
           </p>
           <div className="text-center text-md-start text-lg-start ps-md-3 ps-lg-3 pt-2">
-            <a href="#" class="btn bg-light m-0 px-auto py-2 text-primary">
+            <Link href="#" class="btn bg-light m-0 px-auto py-2 text-primary">
               Daftar Sekarang
-            </a>
+            </Link>
           </div>
         </div>
         <div class="col-lg-4 text-center">
