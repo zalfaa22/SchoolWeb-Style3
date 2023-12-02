@@ -5,7 +5,7 @@ import Guru from "@/components/Guru";
 import Daftar from "@/components/Daftar";
 import "./css/style.css";
 
-function about() {
+function About() {
   const [isModalOpen, setModalOpen] = useState(false);
 
   const openModal = () => {
@@ -138,4 +138,4 @@ function about() {
   );
 }
 
-export default about;
+export default About;
