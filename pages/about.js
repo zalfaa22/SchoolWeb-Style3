@@ -1,4 +1,5 @@
-import React, { useState } from "react";
+import React, { useState } from 'react';
+import Image from "next/image";
 import { Keunggulan2 } from "@/components/Keunggulan";
 import Guru from "@/components/Guru";
 import Daftar from "@/components/Daftar";
@@ -19,13 +20,13 @@ function about() {
   return (
     <div className="bg-white">
       <div>
-          <img className="aboutbubble1" src="About/bubble1.svg"></img>
-          <img className="aboutbubble2" src="About/bubble2.svg"></img>
-          <img className="aboutbubble3" src="About/bubble3.svg"></img>
+          <Image className="aboutbubble1" src="About/bubble1.svg"/>
+          <Image className="aboutbubble2" src="About/bubble2.svg"/>
+          <Image className="aboutbubble3" src="About/bubble3.svg"/>
         </div>
       <div class=" d-flex justify-content-center">
         <div class="position-relative " style={{marginTop: "6rem"}}>
-          <img src="About/hero.svg" alt="" class="img-fluid " />
+          <Image src="About/hero.svg" alt="" class="img-fluid " />
         </div>
       </div>
 
@@ -39,8 +40,8 @@ function about() {
             Berikut adalah video profil dari sekolah kami
           </p>
           <div class="ratio ratio-16x9">
-            <img src="About/video.svg" onClick={openModal}
-              style={{ cursor: "pointer" }}></img>
+            <Image src="About/video.svg" onClick={openModal}
+              style={{ cursor: "pointer" }}/>
               {isModalOpen && (
                 <div className="">
             <iframe
