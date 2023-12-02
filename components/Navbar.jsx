@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { Navbar, Container, Nav } from "react-bootstrap";
 import { useRouter } from 'next/router';
-import 'bootstrap/dist/css/bootstrap.min.css';
 
 function AppNavbar() {
   const [scrolling, setScrolling] = useState(false);

@@ -126,3 +126,125 @@
 .par {
         text-align: justify !important;
 }
+
+
+@media screen and (min-width: 320px) {
+    /* Home */
+    .galeri {
+        color: #1C2661;
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
+    .galeri .title {
+        font-size: 23px !important;
+    }
+    /* .galeri .sub-title {
+        font-size: 13px;
+    } */
+    .seeall {
+        font-size: 12px;
+    }
+
+    /* About */
+    .sub-title {
+        font-size: 16px ;
+        color: #1C2661;
+    }
+
+    /* Article */
+    .big-card .date {
+        font-size: 13px;
+    }
+    .big-card .card-title {
+        font-size: 16px;
+    }
+    .big-card .card-text {
+        font-size: 13px;
+        text-align: justify !important
+    }
+    .big-card .more {
+        font-size: 13px;
+    }
+
+    /* Read */
+    .read {
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
+    .date {
+        font-size: 13px;
+        color: #619AEF;
+    }
+    .title {
+        font-size: 16px;
+        color: #1C2661;
+    }
+    .text {
+        font-size: 13px;
+        color: #3A3B41;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    /* Home */
+    .galeri {
+        color: #1C2661;
+        padding-left: 4rem;
+        padding-right: 4rem;
+    }
+    .galeri .title {
+        font-size: 35px !important;
+    }
+    .galeri .sub-title {
+        font-size: 20px;
+    }
+    .seeall {
+        font-size: 16px;
+    }
+
+    /* About */
+    .sub-title {
+        font-size: 24px;
+    }
+
+    /* Article */
+    .article {
+        padding-left: 2rem !important;
+        padding-right: 2rem !important;
+    }
+    .big-card .date {
+        font-size: 16px;
+    }
+    .big-card .card-title {
+        font-size: 24px;
+    }
+    .big-card .card-text {
+        font-size: 16px;
+        text-align: justify !important;
+    }
+    .big-card .more {
+        font-size: 16px;
+    }
+
+    /* Read */
+    .read {
+        padding-left: 4rem;
+        padding-right: 4rem;
+    }
+    .date {
+        font-size: 16px;
+        color: #619AEF;
+    }
+    .title {
+        font-size: 35px;
+        color: #1C2661;
+    }
+    .text {
+        font-size: 16px;
+        color: #3A3B41;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+
+}

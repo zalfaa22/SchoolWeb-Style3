@@ -1,0 +1,128 @@
+.navbar {
+  background-color: rgba(255, 255, 255, 0.8);
+}
+
+.transparent-bg {
+  background-color: rgba(255, 255, 255, 0.8);
+}
+
+.gradient-container {
+  background: linear-gradient(to top, #53b8ea, #3d7dd5);
+  padding: 20px;
+  border-radius: 15px;
+}
+
+.overlay {
+  position: absolute;
+  top: 5.3%;
+  left: 6.5%;
+  width: 87%;
+  height: 88%;
+  border-radius: 6%;
+  background: linear-gradient(
+    to bottom,
+    rgba(255, 255, 255, 0) 0%,
+    rgba(77, 127, 213, 0.5) 80%,
+    rgba(57, 113, 208, 0.7) 100%
+  );
+  pointer-events: none;
+}
+
+.card-img-top {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.text-limit {
+  display: -webkit-box;
+  -webkit-line-clamp: 4;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.tittle-limit {
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+@media screen and (min-width: 320px) {
+  /* CardNews */
+  .card-body .date{
+    font-size: 13px;
+    color: #619AEF;
+  }
+  .card-body .card-title {
+    font-size: 16px;
+    color: #1C2661;
+  }
+  .card-body .card-text {
+    font-size: 13px;
+    color: #3A3B41;
+  }
+  .card-body .more {
+    font-size: 13px;
+    color: #3362CC;
+  }
+
+  /* Keunggulan */
+  .te {
+    font-size: 13px !important;
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+  .rafiki1 {
+    width: 70%;
+  }
+  .rafiki2 {
+    width: 70%;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  /* CardNews */
+  .card-body .date{
+    font-size: 16px;
+  }
+  .card-body .card-title {
+    font-size: 20px;
+  }
+  .card-body .card-text {
+    font-size: 16px;
+  }
+  .card-body .more {
+    font-size: 16px;
+  }
+
+
+  /* Keunggulan */
+  .te {
+    text-align: justify !important;
+    font-size: 16px;
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .rafiki1 {
+    width: 40%;
+  }
+  .rafiki2 {
+    width: 40%;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+
+  /* Keunggulan */
+  .te {
+    text-align: justify !important;
+    font-size: 20px;
+  }
+  .rafiki1 {
+    width: 40%;
+  }
+  .rafiki2 {
+    width: 35%;
+  }
+}

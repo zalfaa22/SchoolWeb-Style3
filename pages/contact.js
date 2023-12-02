@@ -28,7 +28,7 @@ function contact() {
 
       <div className="px-lg-5 px-md-5" style={{ paddingTop: "8rem", paddingBottom: "6rem", }}>
       <h1 className="text-center  fs-1 fw-bold " style={{color: "#1C2661"}}>Kontak Kami</h1>
-          <p className="text-center text-dark fs-5 fw-normal pb-5" style={{color: "#1C2661"}}>
+          <p className="sub-title text-center text-dark fw-normal pb-5 px-3" style={{color: "#1C2661"}}>
           Untuk info lebih lanjut silahkan hubungi kami
           </p>
       <section className="py-3">

@@ -32,12 +32,10 @@ function gallery() {
         style={{
           paddingTop: "4rem",
           paddingBottom: "4rem",
-          paddingRight: "2rem",
-          paddingLeft: "2rem",
         }}
       >
         <div className="wrap mt-5">
-          <p className="text-center fs-1 fw-bold" style={{color: "#1C2661"}}>
+          <p className="text-center fs-1 fw-bold px-4" style={{color: "#1C2661"}}>
             Dokumentasi Sekolah
           </p>
           <Gallery2 />

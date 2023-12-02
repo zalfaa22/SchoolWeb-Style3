@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState } from "react";
 import Image from "next/image";
 import { Keunggulan2 } from "@/components/Keunggulan";
 import Guru from "@/components/Guru";
@@ -20,13 +20,13 @@ function About() {
   return (
     <div className="bg-white">
       <div>
-          <Image className="aboutbubble1" src="About/bubble1.svg"/>
-          <Image className="aboutbubble2" src="About/bubble2.svg"/>
-          <Image className="aboutbubble3" src="About/bubble3.svg"/>
+          <img className="aboutbubble1" src="About/bubble1.svg"></img>
+          <img className="aboutbubble2" src="About/bubble2.svg"></img>
+          <img className="aboutbubble3" src="About/bubble3.svg"></img>
         </div>
       <div class=" d-flex justify-content-center">
         <div class="position-relative " style={{marginTop: "6rem"}}>
-          <Image src="About/hero.svg" alt="" class="img-fluid " />
+          <img src="About/hero.svg" alt="" class="img-fluid " />
         </div>
       </div>
 
@@ -35,13 +35,13 @@ function About() {
           className="wrap mt-5"
           style={{ maxWidth: "80%", margin: "0 auto" }}
         >
-          <h1 className="text-center fs-1 fw-bold" style={{color: "#1C2661"}}>Video Profil</h1>
-          <p className="text-center fs-5 fw-normal" style={{color: "#1C2661"}}>
+          <h1 className="title text-center fs-1 fw-bold" style={{color: "#1C2661"}}>Video Profil</h1>
+          <p className="sub-title text-center fw-normal" >
             Berikut adalah video profil dari sekolah kami
           </p>
           <div class="ratio ratio-16x9">
-            <Image src="About/video.svg" onClick={openModal}
-              style={{ cursor: "pointer" }}/>
+            <img src="About/video.svg" onClick={openModal}
+              style={{ cursor: "pointer" }}></img>
               {isModalOpen && (
                 <div className="">
             <iframe
@@ -78,7 +78,7 @@ function About() {
         }}
       >
         <div className="">
-          <div className="row">
+          {/* <div className="row">
             <div className="col-md-6">
               <p className="text-start text-dark fs-1 fw-bold ms-5">
                 Guru & Staff
@@ -96,7 +96,39 @@ function About() {
                 Lihat Semua
               </a>
             </div>
+          </div> */}
+
+<div class="galeri pb-4">
+          <h2 class="title text-start fs-1 fw-bold ">Guru & Staff</h2>
+          <div class="d-flex justify-content-between align-items-center">
+            <h1 class="sub-title text-start fw-normal lh-base">Daftar Anggota Guru dan Staff Sekolah Ini</h1>
+            <div class="d-flex align-items-center">
+              <a href="/galery">
+                <div
+                  class="btn rounded-lg px-auto"
+                  style={{ backgroundColor: "#619aef" }}
+                >
+                  <div class="seeall text-white text-end">
+                    Lihat Semua{" "}
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="16"
+                      height="16"
+                      fill="currentColor"
+                      class="bi bi-chevron-right"
+                      viewBox="0 0 16 16"
+                    >
+                      <path
+                        fill-rule="evenodd"
+                        d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z"
+                      />
+                    </svg>
+                  </div>
+                </div>
+              </a>
+            </div>
           </div>
+        </div>
           <Guru />
         </div>
 

@@ -29,25 +29,26 @@ function article() {
         </div>
       </div>
 
-      <div
+<div className="article">
+      <div 
         style={{
           paddingTop: "7rem",
           paddingBottom: "4rem",
-          paddingRight: "4rem",
-          paddingLeft: "4rem",
+          paddingRight: "2.3rem",
+          paddingLeft: "2.3rem",
         }}
       >
         <div class="p-1 rounded-4 border border-2 border-info  row">
-          <img class="rounded-4 col-xl-6 col-lg-6 py-3 px-3" src="News/image.png" />
-          <div class="col-xl-6 col-lg-6 row justify-content-center">
-            <div class="col-12 row d-flex">
-              <p class="fs-6 fw-medium col-12 m-0 px-3 pt-3" style={{color: "#619AEF"}}>
+          <img class="rounded-4 col-xl-6 col-lg-6 py-3 px-md-3" src="News/image.png" />
+          <div class="col-xl-6 col-lg-6 row justify-content-end">
+            <div class="big-card col-12 row d-flex">
+              <p class="date fw-medium m-0 px-md-3 pt-md-3" style={{color: "#619AEF"}}>
                 12 Desember 2021
               </p>
-              <p class="text-dark fs-3 fw-bold  col-12 m-0 px-3 py-2">
+              <p class="card-title text-dark fw-bold  col-md-12 m-0 px-md-3 py-md-2">
                 Gotong Royong di Sekolah, Bantu Anak Segera Kembali ke Sekolah
               </p>
-              <p class="text-start text-dark fs-6 fw-normal col-12 m-0 px-3 py-2">
+              <p class="card-text text-start text-dark justify-center fw-normal col-12 col-md-12 m-0 px-md-3 py-md-2">
                 Jika anak kita ditanya apa mimpinya pasti jawabnya saya ingin
                 kembali belajar di sekolah. Saya ingin bertemu dengan
                 teman-teman sekelas saya. begitupun sebagian besar orang tua,
@@ -56,10 +57,10 @@ function article() {
                 karena anak-anaknya selama pandemi lebih banyak menghabiskan
                 waktu di. . .{" "}
               </p>
-              <p class="text-start text-dark fs-6 fw-normal col-12 m-0 px-3 py-2">
+              <p class="card-text text-start text-dark  fw-normal col-md-12 m-0 px-md-3 py-md-2">
                 Penulis : Shinta A.P
               </p>
-              <p class="fs-6 fw-semibold col-12 m-0 px-3 py-2 mb-md-3" style={{color: "#3362CC"}}>
+              <p href="/read" class="more  fw-semibold col-12 m-0 px-3 py-2 mb-md-3" style={{color: "#3362CC"}}>
                 Baca selengkapnya
               </p>
             </div>
@@ -70,12 +71,10 @@ function article() {
       <div
         style={{
           paddingBottom: "6rem",
-          paddingRight: "2rem",
-          paddingLeft: "2rem",
         }}
       >
         <Card2 />
-      </div>
+      </div></div>
     </div></>
   );
 }
